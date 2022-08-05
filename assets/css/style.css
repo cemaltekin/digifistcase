@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Avenir';
+  src: url(../fonts/Avenir.ttc);
+}
+
+@font-face {
+  font-family: 'ITC Avant Garde Pro';
+  src: url(../fonts/ITCAvantGardePro-Bk.otf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -174,6 +184,7 @@ body section.main__wrapper .content__wrapper .tab__wrapper .tab__contents .produ
   font-size: 12.8px;
   line-height: 160%;
   margin-bottom: 8px;
+  font-weight: 500;
 }
 
 body section.main__wrapper .content__wrapper .tab__wrapper .tab__contents .product__carousel .item .product__detail .product__footer .colors__wrapper {
@@ -263,10 +274,10 @@ body section.main__wrapper .content__wrapper .tab__wrapper .tab__contents .produ
     height: 310px;
   }
   body section.main__wrapper .content__wrapper .tab__wrapper .tab__contents .product__carousel .item .product__footer {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
